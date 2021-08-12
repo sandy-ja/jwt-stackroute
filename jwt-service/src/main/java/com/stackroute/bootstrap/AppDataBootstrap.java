@@ -46,6 +46,6 @@ public class AppDataBootstrap implements CommandLineRunner {
         User user2 = new User(id2, password2);
         userRepository.save(user1);
         userRepository.save(user2);
-        log.debug(logMessage);
+        //log.debug(logMessage);
     }
 }
